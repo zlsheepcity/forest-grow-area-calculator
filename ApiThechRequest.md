@@ -59,7 +59,7 @@ Secondary goal is to obtain an image of a map of the specified area with all int
 ### Response (minimal requirements)
 ```json
 {
-  "avalableArea": 46687.796678999999
+  "availableArea": 46687.796678999999
 }
 ```
 
