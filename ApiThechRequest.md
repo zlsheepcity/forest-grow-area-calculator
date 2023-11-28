@@ -52,14 +52,14 @@ Secondary goal is to obtain an image of a map of the specified area with all int
 ### Request
 ```json
 {
-  code: '70940030280'
+  "code": "70940030280"
 }
 ```
 
 ### Response (minimal requirements)
 ```json
 {
-  avalableArea: 46687.796678999999
+  "avalableArea": 46687.796678999999
 }
 ```
 
