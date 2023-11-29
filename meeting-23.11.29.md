@@ -5,9 +5,12 @@
 - https://data.gov.lv/dati/lv/dataset/kadastra-informacijas-sistemas-atvertie-dati/resource/58635c63-8c04-4193-a9f2-ec674c57ae93?inner_span=True
 
 
+# Shapefile
+https://en.wikipedia.org/wiki/Shapefile
+
+
 ### Документы Зиновия
-- https://github.com/zlsheepcity/forest-grow-area-calculator/blob/main/ApiThechRequest.md
-- https://github.com/zlsheepcity/forest-grow-area-calculator/blob/main/CO2-AppDocumentation.md
+- https://github.com/zlsheepcity/forest-grow-area-calculator/
 
 ## Todo
 
@@ -16,6 +19,5 @@
 
 - Перенести PDF в папку калькулятора
 
-- Убрать Atrast Karte
-
+- Убрать Atrast Karte кнопку
 
