@@ -1,6 +1,6 @@
 # API Tech Request
 - Project: Forest Grow Area Calculator
-- Updated: 2023.11.28, zl
+- Updated: 2023.11.29, zl + dev team
 
 ## Abstract
 Primary goal is to get the area value for given cadastre number (`Zemes vienības kadastra apzīmējums`).
