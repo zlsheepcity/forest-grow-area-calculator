@@ -11,7 +11,12 @@ Secondary goal is to obtain an image of a map of the specified area with all int
 
 ## Specified intersection layers
 
-### Layer titles list
+### Positive layers
+
+- AgricultTotal (Kadastrs)
+- Bushes (Kadastrs)
+
+### Negative layers
 - NKMP pieminekļi
 - DAP Invazīvo sugu izplatība
 - DAP Mikroliegumi

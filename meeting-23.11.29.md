@@ -21,3 +21,7 @@ https://en.wikipedia.org/wiki/Shapefile
 
 - Убрать Atrast Karte кнопку
 
+- Доступы до LVMGEO web app
+
+- Позитивные слои:
+  - AgricultTotal, Bushes
