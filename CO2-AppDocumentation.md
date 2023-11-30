@@ -3,6 +3,15 @@
 ##### Abstract
 The code itself is hosted on dev server `co2-dev`. This document should help to contribute/update the code.
 
+
+## Точки входа
+https://co2-dev.pata.lv/lv  - клиент  
+https://co2-dev.pata.lv/lv?v=test - админ  
+https://co2-dev.pata.lv/lv?do=config - конфиг  
+
+С передачей параметров:  
+https://co2-dev.pata.lv/lv?do=brief&cn=70170020035&ha=4.1111&wd=birch&pe=0&v=  
+
 ## Генерация PDF
 https://co2-dev.pata.lv/lv?do=pdf&cn=70940030280&ha=4&wd=birch&pe=0&v=  
 https://co2-dev.pata.lv/lv?do=pdf&cn=70940030280&ha=4&wd=birch&pe=0&v=test  
