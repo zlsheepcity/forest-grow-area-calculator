@@ -17,10 +17,11 @@ https://co2-dev.pata.lv/lv?do=pdf&cn=70940030280&ha=4&wd=birch&pe=0&v=
 https://co2-dev.pata.lv/lv?do=pdf&cn=70940030280&ha=4&wd=birch&pe=0&v=test  
 (URL параметр `v=test` покажет содержание в браузере вместо PDF файла)  
 
+##### `/app/Views/wrapper.php`
 ```php
-// /app/Views/wrapper.php
 $propsAction = array_key_exists('do',$_GET) ? $_GET['do'] : '';
 if ( $propsAction == 'pdf' ):
+    // показать PDF...
     echo view('calculator/pdf');
 else:
     // показать калькулятор...
