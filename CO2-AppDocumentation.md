@@ -68,6 +68,7 @@ The code itself is hosted on dev server `co2-dev`. This document should help to 
 Строчки заданы бизнесом («50 лет с шагом пять лет») и сохранены в конфиге:
 ```js
     const configGeneral = {
+        // ...
         outputYears: [1,5,10,15,20,25,30,35,40,45,50],
 ```
 
