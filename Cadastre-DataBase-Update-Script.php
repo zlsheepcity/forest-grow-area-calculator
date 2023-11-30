@@ -16,7 +16,7 @@
     // Поставлены значения по умолчанию: всё прочитать/всё записать
 
     ini_set('max_execution_time', '420');
-    $useDBWrite      = 0;
+    $useDBWrite      = 1;
     $useTargetMatch  = 0; $listTargetMatch = '62460050097'; // = start from id
     $useCounterLimit = 0; $counterDBUpdatesLimit = 10; // = stop after x records
 ?>
