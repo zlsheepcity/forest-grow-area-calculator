@@ -1,8 +1,28 @@
 # CO2 Calculator front-app documentation
-Updated: 2023.11.28, zl
+Updated: 2023.11.29, zl
 
 ## Abstract
 The code itself is hosted on dev server `co2-dev`. This document should help to contribute/update the code.
+
+## Описание требований к калькулятору
+
+#### Калькулятор принимает
+- площадь в м²
+- сорт дерева, от которого зависят коэффиценты
+- коэффиценты, статичны (меняются только по требованию бизнеса)
+
+#### Калькулятор отдаёт
+Набор табличных данных.
+
+Содержание таблиц обсуждалось устно и обрастало деталями. Теущий код является единственным источником истины.
+
+##### Таблица 1: прибыль от вырубки
+Таблицы для юзера-клиента и для юзера-админа отличаются скрытыми/показанными полями.
+
+<img src="./CO2-AppDocumentationFiles/OutputTable1-client.png" width="400" />  
+<img src="./CO2-AppDocumentationFiles/OutputTable1-admin.png" width="400" />  
+
+
 
 ## File folders and structure
 `public_html/app/Views/calculator`
