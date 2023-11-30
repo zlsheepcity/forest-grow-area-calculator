@@ -1,5 +1,5 @@
 # CO2 Calculator front-app documentation
-##### Updated: 2023.11.30.10:00, zl
+##### Updated: 2023.11.30.12:00, zl
 ##### Abstract
 The code itself is hosted on dev server `co2-dev`. This document should help to contribute/update the code.
 
