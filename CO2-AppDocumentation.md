@@ -3,6 +3,39 @@
 ##### Abstract
 The code itself is hosted on dev server `co2-dev`. This document should help to contribute/update the code.
 
+## Генерация PDF
+```php
+// /app/Views/wrapper.php
+// ...
+
+$propsAction = array_key_exists('do',$_GET) ? $_GET['do'] : '';
+if ( $propsAction == 'pdf' ):
+    echo view('calculator/pdf');
+else:
+
+// ...
+```
+
+```
+calculator/pdf.php - entry point
+calculator/pdf-template.php
+calculator/pdf-templateStyles.php
+```
+
+#### Входные параметры
+```
+    $propsValuesHa = $_GET['ha'];   // площадь
+    $propsValuesWood = $_GET['wd']; // codename дерева
+    $propsCadastreNr = $_GET['cn']; // кадастровый номер
+    $propsPriceEmi = $_GET['pe'];   // динамическая цена для третей таблицы
+```
+
+Генератор PDF не зависит от других файлов калькулятора.  
+Конфиг и формулы скопированы внутри темплейта.  
+Заново считывает из базы информацию по кадастру.  
+
+
+
 ## Описание требований к калькулятору
 
 ### Калькулятор принимает
